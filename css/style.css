@@ -33,8 +33,75 @@ main{
   margin:5% auto;
   /* padding-top: 5%; */
   /* padding-bottom: 5%; */
-  background-color: lightblue;
+  background-color: white;
   border-radius: 3px;
+  line-height: 230%;
+}
+
+.main-main{
+  padding: 15px 35px;
+}
+
+/********* Article kinds  ***********/
+
+.article{
+  padding: 1% 2%;
+  border-radius: 25px;
+  color: white;
+}
+
+.editorial{
+  background-color: #47ADF1;
+}
+
+.q1goals{
+  background-color: #9C72E4;
+}
+
+.recruiting{
+  background-color:#64C0A9;
+}
+
+.mobile{
+  background-color:#F29E33;
+}
+
+.website{
+  background-color: #D75E9E;
+}
+
+.sales{
+  background-color: #B0C926;
+}
+
+
+/******* Adds before **********/
+
+.triangle::before{
+  content: "\25BC";
+}
+
+.adds{
+  width: 6px;
+  height: 6px;
+  padding: 2px;
+  border: solid 1px;
+  font-size: 10px;
+  border-radius: 50%;
+}
+
+.positive{
+  border-color: green;
+  color: green;
+}
+
+.negative{
+  border-color: red;
+  color: red;
+}
+
+.addtitle{
+
 }
 
 /********* First box Section ***********/
@@ -53,9 +120,9 @@ main{
 
 .button{
   border: none;
-  border-radius: 2px;
+  border-radius: 10px;
   margin: 2%;
-  padding: 1% 2% 1%;
+  padding: 1% 2% 1% 2%;
 }
 
 input[type=button]{
@@ -71,4 +138,5 @@ input[type=button]{
 .second{
   border: 1px solid #D1D6DA ;
   color:#D1D6DA ;
+  background-color: white;
 }
