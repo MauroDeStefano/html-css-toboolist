@@ -2,15 +2,73 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+body{
   background-color: #F6F8F9;
 }
 
-header{
-  background: red;
+/************* BANNER LOGO *************/
+
+.start-banner{
+  background: white;
   width: 100%;
-  height: 100px;
+  height: 70px;
+  padding: 10px;
 }
 
+.start-banner > img, .start-title {
+  vertical-align: middle;
+}
+
+.start-title{
+  display: inline-block;
+}
+
+/**** Instructions for the main box ****/
+
 main{
-  
+  width: 70%;
+  margin:5% auto;
+  /* padding-top: 5%; */
+  /* padding-bottom: 5%; */
+  background-color: lightblue;
+  border-radius: 3px;
+}
+
+/********* First box Section ***********/
+
+.pad-box{
+  padding-left: 8%;
+}
+
+.header-main{
+  border-bottom: 1px solid #F6F8F9;
+}
+
+.header-main > div{
+  display: inline-block;
+}
+
+.button{
+  border: none;
+  border-radius: 2px;
+  margin: 2%;
+  padding: 1% 2% 1%;
+}
+
+input[type=button]{
+  margin: 10px 0px;
+}
+
+.first{
+  background-color: #47ADF1;
+  margin-right: 2px;
+  color: white;
+}
+
+.second{
+  border: 1px solid #D1D6DA ;
+  color:#D1D6DA ;
 }
