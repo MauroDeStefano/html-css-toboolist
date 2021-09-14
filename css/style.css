@@ -2,16 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #F6F8F9;
 }
 
-body{
-  color: red;
+header{
+  background: red;
+  width: 100%;
+  height: 100px;
 }
 
-div{
-  width: 300px;
-  background-color: red;
-  height: 324px;
-  padding: 1px;
-  border: 1px solid black;
+main{
+  
 }
