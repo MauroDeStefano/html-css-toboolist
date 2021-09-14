@@ -2,52 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 105%;
+}
 
+p{
+  margin-top: 25px;
 }
 
 body{
   background-color: #F6F8F9;
 }
 
-/************* BANNER LOGO *************/
-
-.start-banner{
-  background: white;
-  width: 100%;
-  height: 70px;
-  padding: 10px;
-}
-
-.start-banner > img, .start-title {
-  vertical-align: middle;
-}
-
-.start-title{
-  display: inline-block;
-}
-
-/**** Instructions for the main box ****/
-
-main{
-  width: 70%;
-  margin:5% auto;
-  /* padding-top: 5%; */
-  /* padding-bottom: 5%; */
-  background-color: white;
-  border-radius: 3px;
-  line-height: 230%;
-}
-
-.main-main{
-  padding: 15px 35px;
-}
-
 /********* Article kinds  ***********/
 
 .article{
-  padding: 1% 2%;
+  padding: 0.5% 1%;
   border-radius: 25px;
   color: white;
+  font-size: 60%;
 }
 
 .editorial{
@@ -74,7 +47,6 @@ main{
   background-color: #B0C926;
 }
 
-
 /******* Adds before **********/
 
 .triangle::before{
@@ -82,11 +54,11 @@ main{
 }
 
 .adds{
-  width: 6px;
-  height: 6px;
-  padding: 2px;
+  width: 5px;
+  height: 5px;
+  padding: 5px;
   border: solid 1px;
-  font-size: 10px;
+  font-size: 13px;
   border-radius: 50%;
 }
 
@@ -100,8 +72,34 @@ main{
   color: red;
 }
 
-.addtitle{
+/************* BANNER LOGO *************/
 
+.start-banner{
+  background: white;
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+}
+
+.start-banner > img, .start-title {
+  vertical-align: middle;
+}
+
+.start-title{
+  display: inline-block;
+  font-size: 200%;
+}
+
+/**** Instructions for the main box ****/
+
+main{
+  width: 70%;
+  margin:5% auto;
+  /* padding-top: 5%; */
+  /* padding-bottom: 5%; */
+  background-color: white;
+  border-radius: 3px;
+  line-height: 230%;
 }
 
 /********* First box Section ***********/
@@ -123,6 +121,7 @@ main{
   border-radius: 10px;
   margin: 2%;
   padding: 1% 2% 1% 2%;
+  font-size: 80%;
 }
 
 input[type=button]{
@@ -140,3 +139,9 @@ input[type=button]{
   color:#D1D6DA ;
   background-color: white;
 }
+
+/******* Second box Section **************/
+/* 
+.main-main{
+  padding: 15px 35px;
+} */
