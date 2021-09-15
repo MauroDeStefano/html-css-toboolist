@@ -50,13 +50,14 @@ body{
 /******* Adds before **********/
 
 .triangle::before{
-  content: "\25BC";
+  content: "\25BE                       ";
 }
 
 .adds{
-  width: 5px;
-  height: 5px;
-  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 15px;
+  width: 15px;
   border: solid 1px;
   font-size: 13px;
   border-radius: 50%;
@@ -98,7 +99,7 @@ main{
   margin:5% auto;
   /* padding-top: 5%; */
   /* padding-bottom: 5%; */
-  background-color: white;
+  background-color: #fff;
   border-radius: 3px;
   line-height: 230%;
 }
@@ -118,25 +119,24 @@ main{
 }
 
 .button{
-  border: none;
+  margin: 10px 0px;
+  border: 1px solid;
   border-radius: 10px;
-  margin: 2%;
   padding: 1% 2% 1% 2%;
   font-size: 80%;
-}
-
-input[type=button]{
-  margin: 10px 0px;
-}
+  cursor: pointer;
+  
+}                
 
 .first{
   background-color: #47ADF1;
+  border: #47ADF1;
   margin-right: 2px;
   color: white;
 }
 
 .second{
-  border: 1px solid #D1D6DA ;
+  border-color: #D1D6DA ;
   color:#D1D6DA ;
   background-color: white;
 }
@@ -146,3 +146,11 @@ input[type=button]{
 .main-main{
   padding: 15px 35px;
 } */
+
+ul{
+  list-style-type: none;
+}
+
+.triangle{
+  font-weight: 600;
+}
